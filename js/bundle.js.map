@@ -1,0 +1,1 @@
+{"version":3,"file":"./js/bundle.js","mappings":"AACAA,SAASC,iBAAiB,oBAAoB,WAC3CC,QAAQC,IAAI,OAEf","sources":["webpack://static-site-webpack-habr/./src/js/index.js"],"sourcesContent":["\r\ndocument.addEventListener(\"DOMContentLoaded\", function () {\r\n   console.log('init')\r\n\r\n});\r\n\r\n"],"names":["document","addEventListener","console","log"],"sourceRoot":""}
