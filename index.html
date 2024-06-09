@@ -1,4 +1,16 @@
 <div class="overlay">
+  <div class="header-top">
+    <div class="container">
+      <div class="header__container">
+        <div class="logo">Logo</div>
+        <nav class="nav">
+          <a href="#" class="nav__item">Home </a><a href="#about-us" class="nav__item">About Us </a
+          ><a href="#our-products" class="nav__item">Our Products</a>
+        </nav>
+        <div class="burger menu"><span class="burger__item menu"></span></div>
+      </div>
+    </div>
+  </div>
   <!DOCTYPE html>
   <html lang="ru">
     <head>
@@ -14,17 +26,6 @@
     <body>
       <div class="page">
         <header class="header">
-          <div class="header__top">
-            <div class="container">
-              <div class="header__container">
-                <div class="logo">Logo</div>
-                <nav class="nav">
-                  <a href="#" class="nav__item">Home </a><a href="#" class="nav__item">About Us </a
-                  ><a href="#" class="nav__item">Our Products</a>
-                </nav>
-              </div>
-            </div>
-          </div>
           <div class="container">
             <h1 class="header__title">Welcome to the<br />MUSDEV!</h1>
             <p class="header__text">
@@ -34,6 +35,7 @@
         </header>
         <main class="main container">
           <section class="about-us">
+            <span id="about-us" class="anchor"></span>
             <h2 class="common-title">About Us</h2>
             <div class="info-user__wrap">
               <div class="info-user">
@@ -228,6 +230,7 @@
             </div>
           </section>
           <section class="our-products">
+            <span id="our-products" class="anchor"></span>
             <h2 class="common-title">Our Products</h2>
             <div class="our-products__container">
               <div class="our-products__img-box">
@@ -249,8 +252,21 @@
               </div>
             </div>
           </section>
+          <article class="donate-box">
+            <p data-aos="fade-up" class="our-products__donate-text">
+              If you want to help the project, please follow the link below!
+            </p>
+            <a
+              data-aos="fade-up"
+              data-aos-anchor-placement="top-bottom"
+              data-aos-delay="300"
+              class="donate-box__link"
+              href="#"
+              >DONATE</a
+            >
+          </article>
         </main>
-        <footer class="footer"></footer>
+        <footer class="footer">&#xa9;</footer>
       </div>
       <script src="js/bundle.js"></script>
       <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
